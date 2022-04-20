@@ -1,5 +1,5 @@
-displayMeme = (req, res) => {
-    const data = 'MEME';
+displayName = (req, res) => {
+    const data = 'Ana Cardenas';
     res.status(200).send(data);
 }
 
@@ -10,6 +10,6 @@ displayHello = (req, res) => {
 
 
 module.exports = {
-    displayMeme,
+    displayName,
     displayHello,
 }

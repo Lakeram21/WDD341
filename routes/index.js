@@ -1,7 +1,7 @@
 const routes = require('express').Router();
-const meme = require('../controllers');
+const name = require('../controllers');
 
-routes.get('/', meme.displayMeme);
+routes.get('/', name.displayName);
 routes.get('/hello', meme.displayHello);
 
 module.exports = routes;
