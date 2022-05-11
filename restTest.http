@@ -1,0 +1,3 @@
+# this is the get method for getting all user in db
+GET http://localhost:3000/
+
